@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="190dp"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="#DDDADA"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img11design"
+            android:layout_width="138dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:src="@drawable/baseline_house_24"></ImageView>
+
+        <TextView
+            android:id="@+id/detaildesign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:fontFamily="@font/roboto_medium"
+            android:text="Arranging Housing"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp">
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
